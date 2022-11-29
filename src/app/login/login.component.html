@@ -1,0 +1,96 @@
+
+
+
+
+   
+    <!-- Sign Up Start-->
+  
+    <!-- <div class="login-container" >
+      
+    <div class="container mx-auto my-auto">
+        
+        <div class="row text-center mb-3" ><div style="position:relative; animation: mymove 6s infinite; "><h1 class="mb-5 h-welcome" >Film izleme zamanı</h1></div>
+           
+           
+            <div class="col-12 col-md-6 mb-3 ">
+                <div class="mb-3">
+                    <label for="email"  class="form-label d-flex justify-content-start my-2 lbl-email">Email</label>
+                    <input type="email" name="uname" class="form-control"  [(ngModel)]="username"  id="email" aria-describedby="emailHelp">
+                  
+                  </div>
+
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="mb-3 " >
+                    <label for="password"  class="form-label  d-flex justify-content-start my-2">Şifre</label>
+                    <input type="password" name="pword"  class="form-control" id="password"  [(ngModel)]="password">
+                    
+                  </div>
+
+            </div>
+        <div class="col-12 ">
+            <div class="error">{{ errorMsg }}</div>
+            <button class="btn " (click)="login()" style="width:50%;background-color:#b498cf;margin-bottom:30px;">Giriş Yap</button>
+        </div>
+        </div>
+       
+    </div>
+
+</div> -->
+
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <div class="login100-form-title" style="background-image: url(assets/images/image-asset.jpg);">
+                <span class="login100-form-title-1">
+                    Sign In
+                </span>
+            </div>
+
+            <form class="login100-form validate-form">
+                <div class="wrap-input100 validate-input m-b-26 mb-2" data-validate="Username is required">
+                    <span class="label-input100">Username</span>
+                    <input class="input100 " type="text" name="uname"  [(ngModel)]="username" placeholder="Enter username">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-18 mb-2 my-2" data-validate = "Password is required">
+                    <span class="label-input100">Password</span>
+                    <input class="input100 " type="password" name="pword" [(ngModel)]="password" placeholder="Enter password">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="flex-sb-m w-full p-b-30">
+                    <div class="error">{{ errorMsg }}</div>
+                    <div class="contact100-form-checkbox my-2">
+                        <input class="input-checkbox100" id="ckb1"  type="checkbox" name="remember-me">
+                        <label class="label-checkbox100 " for="ckb1">
+                            Remember me
+                        </label>
+                    </div>
+
+                    <div class="mb-3">
+                        <a href="#" class="txt1">
+                            Forgot Password?
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" (click)="login()" >
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Sign Up End-->
+
+
+
+
+

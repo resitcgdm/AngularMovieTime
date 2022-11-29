@@ -1,0 +1,114 @@
+// .home-container {
+//     display: flex;
+//     background-color: white;
+//     margin-top:100px;
+  
+//     .all-movies {
+//       width: 75%;
+//        min-height: calc(100vh - 80px);
+//       border-right: 1px solid #883ff4;
+//       padding: 20px 40px;
+//       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//       .top {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         margin-bottom: 15px;
+//         h3 {
+//           text-transform: uppercase;
+//           font-weight: bold;
+//           border-left: 4px solid #832790;
+//           padding-left: 10px;
+//         }
+//         .view-all {
+//           color: #832790;
+//           cursor: pointer;
+//         }
+       
+//       }
+//       .movies-thumbnail {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-bottom: 30px;
+//         .movie {
+//           .cover {
+//             cursor: pointer;
+//             img {
+//                 width: 145px;
+
+//               border-radius: 5px;
+//               box-shadow: 1px 1px 2px 2px #f4b4fd;
+  
+//             }
+//           }
+//           .detail {
+//             width: 150px;
+//             .name {
+//               font-weight: bold;
+//               height: 50px;
+//               margin-top: 5px;
+//               cursor: pointer;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .popular-movies {
+//       width: 25%;
+//       min-height: calc(100vh - 80px);
+//       padding: 20px 40px;
+//       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+//       h3 {
+//         text-transform: uppercase;
+//         font-weight: bold;
+//         border-left: 4px solid #832790;
+//         padding-left: 10px;
+//       }
+//       .movies {
+//         .movie {
+//           margin-bottom: 20px;
+//           margin-top: 30px;
+//           display: flex;
+//           align-items: center;
+//           justify-content: space-between;
+//           .name {
+//             font-weight: bold;
+//             cursor: pointer;
+//           }
+//         }
+//         .view-all {
+//           color: #832790;
+//           text-align: right;
+//           margin-top: 30px;
+//           cursor: pointer;
+//         }
+//       }
+//     }
+//   }
+  
+//   .rating {
+//     padding-right: 45px;
+//     position: relative;
+//     .rating-value {
+//       position: absolute;
+//       top: 10px;
+//       right: 0px;
+//       font-weight: bold;
+//     }
+//   }
+//   @keyframes mymove {
+//     from {left: 100px;}
+//     to {left: 15px;}}
+
+.bg-color-gradient{
+  background: linear-gradient(to right, gray, rgb(0, 0, 0));
+  box-shadow: 0px 1px 10px 5px lightgrey;
+  border-radius: 8px;
+color:#e1e1e1;
+}
+
+.bg-color2-gradient{
+  box-shadow: 0px 1px 10px 5px lightgrey;
+  border-radius: 8px;
+}
